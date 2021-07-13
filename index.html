@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> My Work </title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
     <script src="main.js"></script>
+    <div class="container">
     <section id="Apps">
     
 <h1>Apps</h1>
@@ -21,24 +24,48 @@
     </section>
     
     
-    <section id="games">
-    
-    <h1>Games</h1>
-    
+   
+        <h1>Games</h1>
         
         <div class="line"></div>
         
+        <div id="myCarousel" class="carousel slide">
+        
+        <div class="carousel-inner">
+          
+        <div class="item active">
+            <center>
         <a href="https://studio.code.org/projects/spritelab/U_e_SGoatiYkmQY7tNpRiES31NUrPyuqHzASP94l57k" target="_blank">
-        <img src="Balloon%20App.png" width="400px" height="600px">
+        <img src="Balloon%20App.png" class="img-responsive">
         </a>
-        
+            <div class="carousel-content">
+                <p>Ballon Pop!</p>
+            </div>
+            </center>
+        </div>
+        <div class="item">
+            <center>
         <a href="https://studio.code.org/projects/spritelab/GT4hkUiDQrIYW9JBj8iCTO4Hl946rOrukpmSKKz2bo8" target="_blank">
-        <img src="whinne%20the%20pooh%20game.png" width="400px" height="600px">
+        <img src="whinne%20the%20pooh%20game.png" class="img-responsive">
         </a>
+                <div class="carousel-content">
+                <p>Help Whinne!</p>
+            </div>
+        </center>
+        </div>
+            
         
-        
-    </section>
-    
+        </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            
+             <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+            
+            
     <section id="Art">
     
     <h1>Art</h1>
@@ -74,5 +101,6 @@
 </iframe>
       
     </section>
+        </div>
 </body>
 </html>

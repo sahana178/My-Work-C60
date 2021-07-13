@@ -82,3 +82,26 @@ img:hover{
     transform: scale(0.9);
     
 }
+
+
+#myCarousel{
+    
+    background-color: deeppink;
+}
+
+
+#myCarousel img{
+   
+    height: 300px;
+    margin-top: 35px;
+}
+
+
+.carousel-inner p{
+    
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+    
+}
